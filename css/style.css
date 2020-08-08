@@ -1,0 +1,438 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+        url('Gilroy-Light.woff2') format('woff2'),
+        url('Gilroy-Light.woff') format('woff'),
+        url('Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+        url('Gilroy-Bold.woff2') format('woff2'),
+        url('Gilroy-Bold.woff') format('woff'),
+        url('Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+    .content{
+        max-width: 998px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 823px;
+        
+    }
+    /*----------------------------------------------*/
+     .block_header{
+         margin-top: 24px;
+         margin-bottom: 144px;
+     }
+    .header{
+        font-family: 'Gilroy-Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24.1183px;
+        line-height: 29px;
+        color: #222222;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .bootstrap_header{
+        margin: auto;
+        position: relative;
+    }
+    .menu_top{
+        display: inline-block;
+        margin-right: 25px;
+    }
+    menu{
+        padding: 0px;
+        margin: 0px;
+        margin-left: -20px;
+    }
+    .container-fluid{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    menu>.menu_top>a{
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11.0889px;
+        line-height: 13px;
+        color: #73738D;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    menu>.menu_top>a:hover{
+        border: 1.03958px solid #1943EF;
+        color: #1943EF;
+        border-radius: 33.9597px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        text-decoration: none;
+    }
+    .border_header{
+        position: absolute;
+        width: 60.99px;
+        height: 60.99px;
+        left: 240.9px;
+        top: -46.41px;
+    }
+    /*-------------------------------------------*/
+    .header_block2{
+        font-family: "Gilroy-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40.1972px;
+        line-height: 49px;
+        color: #222222;
+    }
+    .text_block2{
+        width: 429px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.5542px;
+        line-height: 150%;
+        color: #73738D;
+        margin-bottom: 20px;
+    }
+    .border_vector{
+        position: absolute;
+        top: -83px;
+        left: 29px;
+    }
+    .photo_phone{
+        margin-top: -100px;
+        position: relative;
+        z-index: 2;
+    }
+    .circle_phone{
+        margin-top: 30px;
+        position: relative;
+        z-index: 0;
+        margin-top: -150px;
+        margin-left: 213px;
+    }
+    .block_form_email_id{
+        position: relative;
+    }
+    .kwadr{
+        position: absolute;
+        left: 0;
+        top: -7px;
+        z-index: 1;
+        
+    }
+    .header_block2{
+        position: relative;
+        z-index: 3;
+    
+        
+    }
+    .block_form{
+        position: relative;
+    }
+    .input_email_id{
+        position: absolute;
+        width: 423.46px;
+        height: 41.58px;
+        background: #FFFFFF;
+        border-radius: 33.9597px;
+        text-decoration: none;
+        padding-left: 16px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.0889px;
+        line-height: 150%;
+        color: rgba(115, 115, 141, 0.6);
+        outline: none;
+        border: 0;
+        box-shadow: 0px 2.77222px 27.7222px rgba(0, 0, 0, 0.06);
+    }
+    .button_email_id{
+        position: absolute;
+        right: 25px;
+        width: 155.94px;
+        height: 41.58px;
+        background: #1943EF;
+        border-radius: 33.9597px;
+        text-decoration: none;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11.0889px;
+        line-height: 13px;
+        color: #FFFFFF;
+        outline: none;
+        border: 0;
+    }
+    .block_jackdaw{
+        padding-left: 15px;
+    }
+    .jackdaw_inline{
+        display: inline-flex;
+        margin-top: 60px;
+        padding: 0px !important;
+    }
+    .jackdaw{
+        margin-bottom: 16px;
+        margin-right: 4px;
+    }
+    .text_jackdaw{
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11.0889px;
+        line-height: 150%;
+        color: #73738D;
+    }
+    .left_border_block_img{
+        width: 127px;
+        height: 127px;
+        position: absolute;
+        left: -160px;
+        margin-bottom: 96px;
+    }
+    /*-------------------------------------------------------*/
+    .header_piple{
+        font-family: "Gilroy-Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24.95px;
+        line-height: 30px;
+        text-align: center;
+        color: #222222;
+    }
+    .block_people{
+        position: relative;
+        margin-top: 97px;
+    }
+    .carousel{
+       margin: auto;
+       height: 600px;
+    }
+    
+    .div_block_people{
+        margin: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+        border-radius: 8.31667px;
+        width: 501.77px;
+        height: 301.48px;
+        padding-top: 60px;
+        margin-top: 93px;
+        margin-bottom: 58px;
+    }
+    .carousel_indicators{
+        width: 5.54px !important;
+        height: 5.54px !important;
+        background: #DBE5F1 !important;
+        border-radius: 47.8208px !important;
+        transition: 0.5s;
+    }
+    .carousel-indicators{
+        bottom: 142px !important;
+    }
+    ol>.active{
+        background: #26C296 !important;
+        border-radius: 47.8208px !important;
+        width: 16.63px !important;
+        height: 5.54px !important;
+
+    }
+    .people{
+        position: absolute;
+        top: -60px;
+        left: 336px;
+    }
+    .name_piple{
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14.5542px;
+        line-height: 17px;
+        color: #222222;
+    }
+    .text_piple{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.5542px;
+        line-height: 150%;
+        text-align: center;
+        color: #73738D;
+        margin-top: 9px;
+        margin-bottom: 17px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .people1{
+        position: absolute;
+        left: 0px;
+        top: 106px;
+    }
+    .people2{
+        position: absolute;
+        right: 0px;
+        top: 90px;
+    }
+    .people3{
+        position: absolute;
+        left: 55px;
+        top: 180px;
+        border: 0.693056px solid #F5AC18;
+        border-radius: 76.9292px;
+    }
+    .people4{
+        position: absolute;
+    right: 87px;
+    top: 155px;
+    }
+    .people5{
+        position: absolute;
+        left: 0px;
+        bottom: 215px;
+    }
+    .people6{
+        position: absolute;
+        right: 0px;
+        bottom: 259px;    
+    }
+    .kwadr_bottom{
+        position: absolute;
+    bottom: 181px;
+    right: 152px;
+    }
+/*-------------------------------------------------------------*/
+.header_text{
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24.95px;
+    line-height: 30px;
+    color: #222222;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+.text_relationships{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    color: #73738D;
+    margin-top: -10px;
+    padding-left: 15px;
+}
+.button_bottom{
+    width: 155.94px;
+    height: 41.58px;
+    background: #26C296;
+    border-radius: 33.9597px;
+    border: none;
+    color: #FFFFFF;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0889px;
+    line-height: 13px;
+    margin-top: 40px;
+    margin-right: 6px;
+}
+.form_bottom{
+    position: relative;
+}
+.relationships {
+    width: 792.86px !important;
+    height: 123.36px !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA !important;
+    border-radius: 8.31667px !important;
+    margin-bottom: 69px;
+    position: relative !important;
+    z-index: 23 !important;
+}
+.border_form_bottom{
+    position: absolute !important;
+    z-index: 0 !important;
+    top: -12px;
+    left: -37px;
+}
+
+/*-------------------------------------------------------------------------*/
+.foter{
+    position: relative;
+}
+.header_bottom{
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.6333px;
+    line-height: 13px;
+    align-items: center;
+    color: #222222;
+}
+.text_bottom{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #73738D;
+}
+.ZG_futer{
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.6333px;
+    line-height: 13px;
+    align-items: center;
+    color: #222222;
+}
+.menu_futer{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #73738D;
+    display: block;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+.block_menu_foter{
+    margin-left: 15px;
+}
+.min_text_futer{
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 13px;
+    color: #73738D;
+    margin-bottom: 30px;
+    margin-top: -5px;
+}
+.big_text_futer{
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.6531px;
+    line-height: 20px;
+    color: #222222;
+    margin-top: 83px;
+}
+.two_border{
+    position: absolute;
+    right: -66px;
+    bottom: -50px;
+}
